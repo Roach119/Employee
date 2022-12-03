@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FrontPageActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="85dp"
+            android:gravity="center"
+            android:text="Welcome to Emp-loyee. It is an app which helps to store and manage employee details quickly and easily."
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginTop="100dp"
+            android:text="Which action would you like to perform?"
+            android:textSize="20sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="124dp"
+            android:layout_marginTop="30dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/entry"
+                android:layout_width="194dp"
+                android:layout_height="61dp"
+                android:layout_marginRight="5dp"
+                android:text="Employee Entry" />
+
+            <Button
+                android:id="@+id/display"
+                android:layout_width="194dp"
+                android:layout_height="61dp"
+                android:layout_marginLeft="5dp"
+                android:gravity="center"
+                android:text="Display Employee" />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/ml"
+            android:layout_width="match_parent"
+            android:layout_height="68dp"
+            android:gravity="center"
+            android:text="Manager Login" />
+    </LinearLayout>
+
+</RelativeLayout>
